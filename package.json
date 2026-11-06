@@ -1,0 +1,109 @@
+{
+  "name": "inline-number-slider",
+  "displayName": "Inline Number Slider & Scrubber",
+  "description": "Interactive mini-slider popup on hover & keyboard scrubber (Alt+Arrows) for numbers and dimensions (Typst, CSS, HTML, JS, Python, etc.)",
+  "version": "1.0.0",
+  "publisher": "nathan",
+  "author": {
+    "name": "Nathan"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathan/inline-number-slider"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Formatters"
+  ],
+  "keywords": [
+    "slider",
+    "number",
+    "scrubber",
+    "typst",
+    "css",
+    "html",
+    "units",
+    "tweaker"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "numberSlider.set",
+        "title": "Set Number Value",
+        "category": "Number Slider"
+      },
+      {
+        "command": "numberSlider.step",
+        "title": "Step Number Value",
+        "category": "Number Slider"
+      },
+      {
+        "command": "numberSlider.increment",
+        "title": "Increment Number (+1)",
+        "category": "Number Slider"
+      },
+      {
+        "command": "numberSlider.decrement",
+        "title": "Decrement Number (-1)",
+        "category": "Number Slider"
+      },
+      {
+        "command": "numberSlider.incrementLarge",
+        "title": "Increment Number (+10)",
+        "category": "Number Slider"
+      },
+      {
+        "command": "numberSlider.decrementLarge",
+        "title": "Decrement Number (-10)",
+        "category": "Number Slider"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "numberSlider.increment",
+        "key": "alt+right",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "numberSlider.decrement",
+        "key": "alt+left",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "numberSlider.incrementLarge",
+        "key": "alt+shift+right",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "numberSlider.decrementLarge",
+        "key": "alt+shift+left",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "numberSlider.increment",
+        "key": "alt+up",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "numberSlider.decrement",
+        "key": "alt+down",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "numberSlider.incrementLarge",
+        "key": "alt+shift+up",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "numberSlider.decrementLarge",
+        "key": "alt+shift+down",
+        "when": "editorTextFocus"
+      }
+    ]
+  }
+}
