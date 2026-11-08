@@ -1,7 +1,7 @@
 {
   "name": "inline-number-slider",
   "displayName": "Inline number slider",
-  "description": "Interactive mini-slider for vscode units",
+  "description": "Interactive mini-slider for vscode numbers",
   "version": "1.0.0",
   "publisher": "flash2974",
   "author": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathan/inline-number-slider"
+    "url": "https://github.com/flash2974/vscode-slider"
   },
   "engines": {
     "vscode": "^1.75.0"
