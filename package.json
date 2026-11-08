@@ -1,11 +1,11 @@
 {
   "name": "inline-number-slider",
-  "displayName": "Inline Number Slider & Scrubber",
-  "description": "Interactive mini-slider popup on hover & keyboard scrubber (Alt+Arrows) for numbers and dimensions (Typst, CSS, HTML, JS, Python, etc.)",
+  "displayName": "Inline number slider",
+  "description": "Interactive mini-slider for vscode units",
   "version": "1.0.0",
-  "publisher": "nathan",
+  "publisher": "flash2974",
   "author": {
-    "name": "Nathan"
+    "name": "Nathan Domenichini"
   },
   "license": "MIT",
   "repository": {
@@ -30,6 +30,9 @@
     "tweaker"
   ],
   "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "contributes": {
     "commands": [
       {
