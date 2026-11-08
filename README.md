@@ -19,11 +19,13 @@ Interactive mini-slider for vscode units (instead of modifying it by yourself)
 ---
 
 ## Example
+
 <img src="example_img.png">
 
 ---
 
 ## Local installation
+
 ```bash
 npx @vscode/vsce package
 code --install-extension inline-number-slider-1.0.0.vsix

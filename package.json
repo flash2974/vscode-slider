@@ -2,7 +2,7 @@
   "name": "inline-number-slider",
   "displayName": "Inline number slider",
   "description": "Interactive mini-slider for vscode numbers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "flash2974",
   "author": {
     "name": "Nathan Domenichini"
